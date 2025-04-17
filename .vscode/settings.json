@@ -1,0 +1,17 @@
+{
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "github.copilot.chat.reviewSelection.instructions": [
+        {
+            "file": ".copilot-instructions.md"
+        },
+        {
+            "text": "Resolve all TODO tasks."
+        },
+        {
+            "text": "Resolve all TODO tasks."
+        }
+    ],
+    "github.copilot.chat.codeGeneration.instructions": [],
+    "github.copilot.chat.testGeneration.instructions": []
+
+}

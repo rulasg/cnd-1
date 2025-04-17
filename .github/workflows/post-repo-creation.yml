@@ -1,0 +1,24 @@
+# Run steps to set up a the demo after repo creation from template
+
+name: Post_Repo_Creation
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # Allow to be called from a differnt workflow
+  workflow_call:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+
+  createCodespace:
+    uses: ./.github/workflows/create-codespace.yml
+ 
+  syncIssues:
+    uses: ./.github/workflows/sync-issues.yml
+
+
+
+
